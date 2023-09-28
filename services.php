@@ -1,4 +1,6 @@
-<?phpinclude 'fonctions.php';?>
+<?php include 'fonctions.php';
+
+?>
 
 
 <!DOCTYPE html>
@@ -8,67 +10,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
+                        .container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    padding: 20px;
+                }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
+                h1 {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
 
-.service-section {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
+                .service-section {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100%;
+                }
 
-.service {
-    text-align: center;
-    margin: 10px;
-}
+                .service {
+                    text-align: center;
+                    margin: 10px;
+                }
 
-.service img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
+                .service img {
+                    border-radius: 50%;
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
 
-.service h2 {
-    font-size: 18px;
-    margin-top: 10px;
-}
+                .service h2 {
+                    font-size: 18px;
+                    margin-top: 10px;
+                }
 
-.service p {
-    font-size: 14px;
-}
+                .service p {
+                    font-size: 14px;
+                }
 
 
-@media (max-width: 300px) {
-    .hero-content h1{
-      font-size: 24px;
-    }
+                @media (max-width: 300px) {
+                    .hero-content h1{
+                    font-size: 24px;
+                    }
 
-    .service-section {
-        flex-direction: column;
-    }
+                    .service-section {
+                        flex-direction: column;
+                    }
 
-    .service {
-        margin: 10px auto;
-        width: 100%;
-    }
-     .hero-content > h1{
-      font-size: 24px;
-      animation: none;
-    }
-   }
+                    .service {
+                        margin: 10px auto;
+                        width: 100%;
+                    }
+                    .hero-content > h1{
+                    font-size: 24px;
+                    animation: none;
+                    }
+                }
     </style>
     <link rel="stylesheet" href="styles.css">
+  
    
 
 
@@ -79,7 +82,7 @@ h1 {
 </head>
 <body>
 <?php 
-    include 'header.php'; 
+    include 'entete2.php'; 
     ?>
 
 
@@ -110,6 +113,7 @@ h1 {
             </div>
         </div>
     </div>
+
 
 
 

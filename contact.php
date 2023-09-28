@@ -1,3 +1,6 @@
+<?php include 'fonctions.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -48,11 +51,12 @@
         border-radius: 5px;
       }
     </style>
+    
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <?php 
-    include 'header.php'; 
+    include 'entete2.php'; 
     ?>
     <section class="hero6">
       <div class="hero-content">

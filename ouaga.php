@@ -1,4 +1,6 @@
-<?php include 'fonctions.php';?>
+<?php include 'fonctions.php';
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +80,7 @@
 </head>
 <body>
     <?php 
-    include 'header.php'; 
+    include 'entete2.php'; 
     ?>
     <section class="hero2">
         <div class="hero-content">

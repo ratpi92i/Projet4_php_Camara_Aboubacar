@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php 
-    include 'header.php'; 
+    include 'entete2.php'; 
     ?>
     <section class="hero1">
         <div class="hero-content">
@@ -26,7 +26,7 @@
    
     <div class="tourist-site">
     <?php echo afficherImageParID(1); ?>
-      <h3> <?php echo afficherNomSiteParID(1);?> </h3>
+      <h3> <?php echo afficherNomSiteParID(7);?> </h3>
       <p> <?php echo afficherDescriptionSiteParID(1);?></p>
       <a href="#">visiter</a>
     </div>
